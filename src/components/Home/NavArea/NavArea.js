@@ -2,6 +2,8 @@ import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './NavArea.css'
+import { MdNightlight } from 'react-icons/md';
+
 
 const NavArea = () => {
     return (
@@ -21,6 +23,7 @@ const NavArea = () => {
                             <Link to='/contact'>Contact</Link>
                         </Nav>
                         <h6 style={{color:'white', backgroundColor:'#1D0F23', padding:'10px 20px', border:'1px solid blue', borderRadius:'15px', marginTop:'7px', fontSize:'12px', fontWeight:'700'}}>Wallet Connect</h6>
+                        <span style={{color:'white', fontSize:'25px', backgroundColor:'#272223', marginLeft:'15px', padding:'2px 10px'}}> <MdNightlight /> </span>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
